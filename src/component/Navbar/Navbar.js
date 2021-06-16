@@ -3,7 +3,7 @@ import TopNav from '../TopNav/TopNav';
 
 const Navbar = () => {
     return (
-        <div>
+        <div className="container">
             <TopNav></TopNav>
         </div>
     );

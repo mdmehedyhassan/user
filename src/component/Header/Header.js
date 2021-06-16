@@ -31,12 +31,12 @@ const Header = () => {
         }
     ]
     return (
-        <div>
+        <div className="container">
             <div className="row">
                 <div className="col-md-8">
                     <div className="row">
                         {
-                            serviceData.map(service => <HeaderDetail service={service}></HeaderDetail>)
+                            serviceData.map(service => <HeaderDetail service={service} key={service.id}></HeaderDetail>)
                         }
                     </div>
                 </div>
