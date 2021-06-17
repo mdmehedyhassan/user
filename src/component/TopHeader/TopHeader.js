@@ -7,7 +7,7 @@ const TopHeader = () => {
                 <h1 className="text-light">MAKE</h1>
                 <h1 className="text-primary"><Typewriter
                     options={{
-                        strings: ['FUTURE..', 'CHANGE..', 'INNOVATION..'],
+                        strings: ['FUTURE..', 'CHANGE..', 'TRANSFORMATION..', 'INNOVATION..'],
                         autoStart: true,
                         loop: true,
                     }}

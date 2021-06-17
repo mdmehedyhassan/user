@@ -40,17 +40,20 @@ const Main = () => {
         }
     ]
     return (
-        <div className="container">
-            <div className="row">
-                {
-                    reasonsData.map(data => <div className="col-md-4 col-sm-6">
-                        <h1>{data.number}</h1>
-                        <h4>{data.title}</h4>
-                        <p>{data.description}</p>
-                    </div>)
-                }
+        <div style={{ backgroundColor: "rgb(198, 213, 232)" }}>
+            <div className="container">
+                <div className="row ">
+                    {
+                        reasonsData.map(data => <div className="col-md-4 col-sm-6">
+                            <h1 className="text-primary">{data.number}</h1>
+                            <h4>{data.title}</h4>
+                            <p className="text-secondary">{data.description}</p>
+                        </div>)
+                    }
+                </div>
             </div>
         </div>
+
     );
 };
 
