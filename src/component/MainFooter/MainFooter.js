@@ -17,12 +17,12 @@ const MainFooter = () => {
                                 <div className="col-sm-6">
                                     <h4>MENU</h4>
                                     <div className="text-secondary">
-                                        <p>Solutions</p>
-                                        <p>Services</p>
-                                        <p>Company</p>
-                                        <p>Careers</p>
-                                        <p>Network</p>
-                                        <p>Contacts</p>
+                                        <button type="button" className="btn btn-link">Solutions</button><br />
+                                        <button type="button" className="btn btn-link">Services</button><br />
+                                        <button type="button" className="btn btn-link">Company</button><br />
+                                        <button type="button" className="btn btn-link">Careers</button><br />
+                                        <button type="button" className="btn btn-link">Network</button><br />
+                                        <button type="button" className="btn btn-link">Contacts</button><br />
                                     </div>
                                 </div>
                                 <div className="col-sm-6 text-secondary">
@@ -38,27 +38,25 @@ const MainFooter = () => {
                             <div className="row">
                                 <div className="col-sm-6">
                                     <h1 className="text-primary "><FontAwesomeIcon icon={faHome} /></h1>
-                                    <h4>Retail</h4>
+                                    <h4 className="text-decoration">Retail</h4>
                                 </div>
                                 <div className="col-sm-6">
                                     <h1 className="text-primary "><FontAwesomeIcon icon={faTruckPickup} /></h1>
-                                    <h4>Supply Chain</h4>
+                                    <h4 className="text-decoration">Supply Chain</h4>
                                 </div>
                             </div>
                             <div className="row">
                                 <div className="col-sm-6">
                                     <h1 className="text-primary "><FontAwesomeIcon icon={faUniversity} /></h1>
-                                    <h4>Financial Services</h4>
+                                    <h4 className="text-decoration">Financial Services</h4>
                                 </div>
                                 <div className="col-sm-6">
                                     <h1 className="text-primary "><FontAwesomeIcon icon={faUserEdit} /></h1>
-                                    <h4>Public Sector</h4>
+                                    <h4 className="text-decoration">Public Sector</h4>
                                 </div>
                             </div>
                         </div>
                     </div>
-
-
                 </div>
 
             </div >

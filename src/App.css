@@ -2,7 +2,21 @@
 .main-app{
   font-family: 'Hammersmith One', sans-serif;
 }
+.text-decoration:link{
+  text-decoration: none;
+}
 
+.text-decoration:hover{
+  text-decoration: underline;
+  color: rgb(54, 88, 222);
+}
+.text-decoration:active{
+  text-decoration: underline;
+  color: rgb(54, 88, 222);
+  border: .05px solid rgb(208, 224, 234);
+  padding: 5%;
+  border-radius: 10% 10%;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

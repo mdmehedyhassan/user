@@ -42,15 +42,17 @@ const Header = () => {
                 </div>
 
                 <div className="col-md-4 p-2 d-flex justify-content-center">
-                    <div> 
-                        <h3>What do you need?</h3>
-                        <p>Business Analytics</p>
-                        <p>Marketing & Sales</p>
-                        <p>Const check</p>
-                        <p>Innovation</p>
-                        <p>Automation of processes/ service</p>
-                        <p>Digital transformation</p>
-                        <p>Digital strategy</p>
+                    <div className="text-secondary">
+                        <h3 className="text-dark">What do you need?</h3>
+                        <div className="">
+                            <button type="button" className="btn btn-link">Business Analytics</button><br />
+                            <button type="button" className="btn btn-link">Marketing & Sales</button><br />
+                            <button type="button" className="btn btn-link">Const check</button><br />
+                            <button type="button" className="btn btn-link">Innovation</button><br />
+                            <button type="button" className="btn btn-link">Automation of processes/ service</button><br />
+                            <button type="button" className="btn btn-link">Digital transformation</button><br />
+                            <button type="button" className="btn btn-link">Digital strategy</button><br />
+                        </div>
                     </div>
                 </div>
             </div>
