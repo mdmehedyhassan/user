@@ -33,7 +33,7 @@ const Header = () => {
     return (
         <div className="container">
             <div className="row">
-                <div className="col-md-8">
+                <div className="col-md-8 animate__animated animate__slow animate__fadeInLeft">
                     <div className="row">
                         {
                             serviceData.map(service => <HeaderDetail service={service} key={service.id}></HeaderDetail>)
@@ -41,7 +41,7 @@ const Header = () => {
                     </div>
                 </div>
 
-                <div className="col-md-4 p-2 d-flex justify-content-center">
+                <div className="col-md-4 animate__animated animate__slower animate__fadeInRight p-2 d-flex justify-content-center">
                     <div className="text-secondary">
                         <h3 className="text-dark">What do you need?</h3>
                         <div className="">
