@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
 .main-app{
   font-family: 'Hammersmith One', sans-serif;
+  background-image: linear-gradient(100deg, rgb(255, 255, 255), rgb(239, 214, 247));
+}
+.background-image{
+  background: url("./images/gif.gif")
 }
 .text-decoration:link{
   text-decoration: none;

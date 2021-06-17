@@ -2,8 +2,8 @@ import React from 'react';
 import Typewriter from 'typewriter-effect';
 const TopHeader = () => {
     return (
-        <div className="bg-dark">
-            <div className="container pt-5 pb-5 mt-2 mb-3">
+        <div className="background-image">
+            <div className="container animate__animated animate__jackInTheBox pt-5 pb-5 mt-2 mb-3">
                 <h1 className="text-light">MAKE</h1>
                 <h1 className="text-primary"><Typewriter
                     options={{
