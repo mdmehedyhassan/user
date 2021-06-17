@@ -41,7 +41,7 @@ const Main = () => {
     ]
     return (
         <div style={{ backgroundColor: "rgb(198, 213, 232)" }}>
-            <div className="container">
+            <div className="container pt-5 pb-5">
                 <div className="row ">
                     {
                         reasonsData.map(data => <div className="col-md-4 col-sm-6">
